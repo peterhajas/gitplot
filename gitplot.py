@@ -16,6 +16,9 @@ def canonical_author(author):
         return "Robb"
     elif author.find("arsenm") >= 0:
         return "Matt"
+    elif author.find("peterhajas"") >= 0:
+        # Be nice!
+         return "Peter"
     print "Don't know who {0} is!".format(author)
     return author
 
